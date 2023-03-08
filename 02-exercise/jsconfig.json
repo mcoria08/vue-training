@@ -1,0 +1,13 @@
+ {
+    "include": [
+      "./src/**/*"
+, "../03-exercise/src/components/CaptionedContent.vue.js"    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    }
+}
